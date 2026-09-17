@@ -98,7 +98,7 @@ export default function HomePage() {
     setError("");
 
     try {
-  const apiUrl =
+      const apiUrl =
   process.env.NEXT_PUBLIC_API_URL || "http://127.0.0.1:8080";      const modelParam = getModelParam();
 
       const requestData = {
